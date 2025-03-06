@@ -33,7 +33,7 @@ header p {
 
 /* Sections */
 section {
-    padding: 60px 15px;
+    padding: 30px 10px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -97,6 +97,7 @@ h2::after {
 .project h3 {
     font-size: 1.5rem;
     color: #00ffcc;
+    margin-bottom: 10px;
 }
 
 .project a {
@@ -114,7 +115,27 @@ h2::after {
     background: #00bfa5;
     transform: translateY(-3px);
 }
+/*certificate */
+#Certification{
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.AWS p {
+    margin-top: 10px;
+    color: white;
+}
+.AWS{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 255, 204, 0.3);
+}
 
+.AWS:hover {
+    transform: scale(1.05);
+}
 /* Contact Section */
 #contact a {
     color: #00ffcc;
